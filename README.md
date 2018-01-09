@@ -1,2 +1,2 @@
 A Personal Website
-# [rouein.me](www.rouein.me)
+# [rouein.me](http://www.rouein.me)
