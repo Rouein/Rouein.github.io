@@ -3,13 +3,14 @@ header .pic{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 0;
   border: #00A388 3px solid;
 }
 
 body{
   padding: 0;
   margin: 0;
-  background-color: #3f4441;
+  background-color: #cecece;
   font-family:'Roboto', sans-serif;
 }
 
@@ -29,15 +30,17 @@ display: inline-block;
 }
 
 .socialmedia{
-  margin-left: 15%;
-  margin-right: 15%;
-  padding-bottom: 40px;
+
+  padding-bottom: 20px;
+  margin-left: 38%;
+  margin-right: 35%;
 }
 
 header h3{
   display: inline;
   vertical-align: super;
   padding-right: 10px;
+  font-size: 11pt;
 }
 
 .navigation-bar{
@@ -50,24 +53,34 @@ header h3{
 header{
   background-color: #1b1c1c;
   color: #9fa4a8;
-  min-height: 400px;
-  padding-top:35px;
+  min-height: 100px;
+  padding-top:1%;
   border-bottom: #00A388 3px solid;
-}
-
-header .highlight{
-  font-weight: bolder;
-  color: #00A388;
 }
 
 header .thin{
   font-weight: lighter;
 }
 
+header .highlight{
+  font-weight: bolder;
+  color: #cccccc;
+}
+.highlightg{
+  color: #00A388;
+}
+
 #name{
-  font-family: Arial;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
-  font-size: 34px;
+  font-size: 28pt;
+}
+#position{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 16pt;
+  color: #00A388;
+  font-variant: small-caps;
 }
 
 header a{
@@ -77,10 +90,11 @@ header a{
 
 header a:hover{
   color: #cccccc;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 header li{
+  font-size: 13.5pt;
   display:inline;
   padding-top: 0;
   padding-bottom: 0;
