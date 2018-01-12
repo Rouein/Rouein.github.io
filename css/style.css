@@ -3,17 +3,21 @@ header .pic{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: #00A388 3px solid;
 }
+
 body{
   padding: 0;
   margin: 0;
   background-color: #3f4441;
   font-family:'Roboto', sans-serif;
 }
+
 ul{
   margin: 0;
   padding: 0;
 }
+
 .container{
   overflow: hidden;
   width: 80%;
@@ -36,7 +40,6 @@ header h3{
   padding-right: 10px;
 }
 
-
 .navigation-bar{
   overflow: hidden;
   width: 80%;
@@ -51,6 +54,7 @@ header{
   padding-top:35px;
   border-bottom: #00A388 3px solid;
 }
+
 header .highlight{
   font-weight: bolder;
   color: #00A388;
@@ -70,10 +74,12 @@ header a{
   text-decoration: none;
   color: #9fa4a8;
 }
+
 header a:hover{
   color: #cccccc;
   font-weight: bold;
 }
+
 header li{
   display:inline;
   padding-top: 0;
@@ -81,6 +87,14 @@ header li{
   padding-left: 25px;
   padding-right: 25px;
 }
+
 footer{
+  background-color: #1b1c1c;
+  color: #9fa4a8;
   text-align: center;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: #00A388 3px solid;
+  margin: 0;
 }
