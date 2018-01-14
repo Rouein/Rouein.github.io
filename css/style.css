@@ -29,6 +29,8 @@ ul{
   overflow: hidden;
   width: 80%;
   margin: auto;
+  padding-top: 15px;
+  padding-bottom: 25px;
 }
 .exp-timeline{
   width:90%;
@@ -82,6 +84,32 @@ display: inline-block;
   margin-right: 35%;
 }
 
+.lang{
+  display: inline-block;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.langN{
+  font-weight: bold;
+  margin: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-top: 0;
+  display: inline-block;
+  float: left;
+  clear: left;
+}
+.proficiency{
+  margin: 0;
+  color: #7c7c7c;
+  padding: 0;
+  font-weight: normal;
+  display: inline-block;
+  float: left;
+}
+
 header h3{
   display: inline;
   vertical-align: super;
@@ -114,6 +142,12 @@ header .highlight{
 }
 .highlightg{
   color: #00A485;
+}
+
+.section-t{
+  text-decoration: underline;
+  text-decoration-color: #26aa90;
+  text-decoration-style: double;
 }
 
 #name{
@@ -212,6 +246,7 @@ margin: 0;
 padding: 0;
 display: inline-block;
 clear:right;
+padding-right: 6px;
 }
 .location{
   color: #00A485;
@@ -222,6 +257,7 @@ clear:right;
   padding: 0;
   display: inline-block;
   clear: right;
+  padding-right: 6px;
 }
 
 .dateh{
@@ -258,6 +294,9 @@ h4 a:hover{
   font-weight: bolder;
   color: gray;
 }
-#experience, #project, #language, #exteaactivity{
+#experience, #project, #honors {
   background-color: #bcbcbc;
+}
+#intro, #skills, #education, #language, #exteaactivity{
+  background-color: #cecece;
 }
