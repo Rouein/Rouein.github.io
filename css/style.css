@@ -28,8 +28,8 @@ header a:hover {
 }
 
 img {
-  max-width: 200px;
-  max-height: 200px;
+  width: 200px;
+  height: 200px;
   border: #26aa90 3px solid;
   border-radius: 100%;
   margin-top: 10px;
@@ -91,27 +91,6 @@ section > h2 {
   width: 80%;
 }
 
-
-
-section div:after, section div:before {
-  position: absolute;
-  right: 0px;
-  font-size: 13px;
-  font-style: italic;
-  font-weight: lighter;
-}
-
-section div:after {
-  top: 30px;
-  content: attr(data-date);
-  color: #7c7c7c;
-}
-section div:before {
-  top: 45px;
-  content: attr(data-location);
-  color: #00A485;
-}
-
 .event {
   border-right: 1px solid #26aa90;
 }
@@ -119,17 +98,6 @@ section div:before {
 .event:before {
   position: absolute;
   top: 1em;
-}
-
-.event:after {
-  position: absolute;
-  right: 20px;
-  content: attr(data-date);
-  text-align: right;
-  top:12px;
-}
-
-.event:before {
   right: -6px;
   background: #006450;
   border-radius: 100%;
@@ -211,6 +179,11 @@ section ul {
   width: 100%;
 }
 
+#honors li > p {
+  margin: 0;
+  padding: 0;
+}
+
 #honors ul span {
   color: #7c7c7c;
   font-weight: 400;
@@ -239,20 +212,18 @@ section ul {
   padding-top: 10px;
   padding-right: 20px;
   text-align: right;
-}
-
-.dates-timeline {
   font-size: 13px;
   font-style: italic;
   font-weight: lighter;
+}
+
+
+.dates-timeline {
   color: #7c7c7c;
   margin: 0;
 }
 
 .locations-timeline {
-  font-size: 13px;
-  font-style: italic;
-  font-weight: lighter;
   color: #00A485;
   margin: 0;
 }
