@@ -91,6 +91,8 @@ section > h2 {
   width: 80%;
 }
 
+
+
 section div:after, section div:before {
   position: absolute;
   right: 0px;
@@ -108,23 +110,6 @@ section div:before {
   top: 45px;
   content: attr(data-location);
   color: #00A485;
-}
-
-#honors li:after {
-  content: attr(data-location);
-  color: #00A485;
-  position: absolute;
-  right: 0px;
-  font-size: 13px;
-}
-
-#experience  h3:after {
-  content: attr(data-location);
-  color: #00A485;
-  position: absolute;
-  right: 18px;
-  top: 30px;
-  font-size: 13px;
 }
 
 .event {
@@ -223,6 +208,7 @@ section ul {
 
 #honors li {
   margin-bottom: 5px;
+  width: 100%;
 }
 
 #honors ul span {
@@ -234,11 +220,41 @@ section ul {
   font-weight: 400;
 }
 
-.dates {
+#honors li div {
+  margin: 0;
+  padding:0;
+  padding-right: 20px;
+}
+
+.dates-honors {
   font-weight: 700;
   float: left;
   width: 100px;
   text-align: center;
+}
+
+.timeline-data {
+  position: relative;
+  float: right;
+  padding-top: 10px;
+  padding-right: 20px;
+  text-align: right;
+}
+
+.dates-timeline {
+  font-size: 13px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #7c7c7c;
+  margin: 0;
+}
+
+.locations-timeline {
+  font-size: 13px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #00A485;
+  margin: 0;
 }
 
 
